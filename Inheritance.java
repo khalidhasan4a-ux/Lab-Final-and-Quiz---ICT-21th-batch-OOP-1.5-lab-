@@ -3,19 +3,16 @@ class Employee {
         return 0;
     }
 }
-
 class FullTimeEmployee extends Employee {
     double calculateSalary() {
-        return 50000;
+        return 45000;
     }
 }
-
 class PartTimeEmployee extends Employee {
     double calculateSalary() {
-        return 20000;
+        return 63000;
     }
 }
-
 public class Inheritance {
     public static void main(String[] args) {
         Employee e1 = new FullTimeEmployee();
